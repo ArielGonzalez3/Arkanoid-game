@@ -1,0 +1,14 @@
+body {
+  background-color: #f0f0f0;
+  display: grid;
+  place-content: center;
+}
+
+canvas {
+  border: 0.25rem solid #000;
+  border-bottom: transparent;
+  background: url('./bkg.png') repeat;
+  margin: 0 auto;
+  display: block;
+  box-shadow: 0 0 1.25rem 0 rgba(0, 0, 0,0.4);
+}
